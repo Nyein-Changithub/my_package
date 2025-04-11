@@ -1,5 +1,6 @@
 {
 	"name": "pkg/mypackage",
+	"version": "1.0.1",
 	"description": "this package is to upload files to cloudflare.",
 	"type": "library",
 	"license": "MIT",
