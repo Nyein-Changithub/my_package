@@ -1,6 +1,6 @@
 <?php
 
-namespace Pkg\MyPackage;
+namespace NyeinChangithub\MyPackage;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -12,7 +12,7 @@ class MyPackageProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->make('Pkg\MyPackage\MyPackageController');
+        $this->app->make('NyeinChangithub\MyPackage\MyPackageController');
 
          // merge config to allow default fallback
         $this->mergeConfigFrom(

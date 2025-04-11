@@ -1,6 +1,6 @@
 <?php
 
-namespace Pkg\MyPackage;
+namespace NyeinChangithub\MyPackage;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;

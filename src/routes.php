@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Pkg\MyPackage\MyPackageController;
+use NyeinChangithub\MyPackage\MyPackageController;
 
 Route::get('my-package', function () {
     return 'Hello from the myPackage package';
