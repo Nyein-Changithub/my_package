@@ -10,13 +10,13 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"pkg\\MyPackage\\": "src/"
+			"Pkg\\MyPackage\\": "src/"
 		}
 	},
 	"extra": {
 		"laravel": {
 			"providers": [
-				"pkg\\MyPackage\\MyPackageProvider"
+				"Pkg\\MyPackage\\MyPackageProvider"
 			]
 		}
 	},
