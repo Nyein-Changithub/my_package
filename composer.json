@@ -1,5 +1,5 @@
 {
-	"name": "nyeinchangithub/mypackage",
+	"name": "pkg/mypackage",
     "version": "1.0.0",
 	"description": "this package is to upload files to cloudflare.",
 	"type": "library",
@@ -16,7 +16,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Nyeinchangithub\\MyPackage\\MyPackageProvider"
+				"Pkg\\MyPackage\\MyPackageProvider"
 			]
 		}
 	},
