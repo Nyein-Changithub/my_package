@@ -1,5 +1,6 @@
 {
-	"name": "nyeinchangithub/mypackage",
+	"name": "pkg/mypackage",
+    "version": "1.0.0",
 	"description": "this package is to upload files to cloudflare.",
 	"type": "library",
 	"license": "MIT",
@@ -9,13 +10,13 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"NyeinChangithub\\MyPackage\\": "src/"
+			"pkg\\MyPackage\\": "src/"
 		}
 	},
 	"extra": {
 		"laravel": {
 			"providers": [
-				"NyeinChangithub\\MyPackage\\MyPackageProvider"
+				"pkg\\MyPackage\\MyPackageProvider"
 			]
 		}
 	},
