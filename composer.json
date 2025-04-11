@@ -1,0 +1,30 @@
+{
+	"name": "nyeinchangithub/mypackage",
+	"description": "this package is to upload files to cloudflare.",
+	"type": "library",
+	"license": "MIT",
+	"require": {
+		"php": "^8.1",
+		"laravel/framework": "^10.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"NyeinChangithub\\MyPackage\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"NyeinChangithub\\MyPackage\\MyPackageProvider"
+			]
+		}
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ]
+    }
+}
