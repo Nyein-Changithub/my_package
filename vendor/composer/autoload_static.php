@@ -84,11 +84,8 @@ class ComposerStaticInit12fd08d3eb9ac652da4e0ee783cbddf5
             'Psr\\EventDispatcher\\' => 20,
             'Psr\\Container\\' => 14,
             'Psr\\Clock\\' => 10,
+            'Pkg\\MyPackage\\' => 14,
             'PhpOption\\' => 10,
-        ),
-        'N' => 
-        array (
-            'NyeinChangithub\\MyPackage\\' => 26,
         ),
         'M' => 
         array (
@@ -290,13 +287,13 @@ class ComposerStaticInit12fd08d3eb9ac652da4e0ee783cbddf5
         array (
             0 => __DIR__ . '/..' . '/psr/clock/src',
         ),
+        'Pkg\\MyPackage\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'PhpOption\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
-        ),
-        'NyeinChangithub\\MyPackage\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
         'Monolog\\' => 
         array (
