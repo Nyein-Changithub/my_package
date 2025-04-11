@@ -7,9 +7,7 @@ use Illuminate\Support\ServiceProvider;
 
 class MyPackageProvider extends ServiceProvider
 {
-    /**
-     * Register services.
-     */
+   
     public function register(): void
     {
         $this->app->make('Pkg\MyPackage\MyPackageController');
