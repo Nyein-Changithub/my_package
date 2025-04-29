@@ -4,8 +4,8 @@
 	"type": "library",
 	"license": "MIT",
 	"require": {
-        "php": ">=7.4 <8.4",
-        "illuminate/support": "^8.0 || ^9.0 || ^10.0 || ^11.0"
+        "php": ">=7.0 <8.4",
+        "illuminate/support": "^5.4 || ^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0"
 	},
 	"autoload": {
 		"psr-4": {
@@ -20,11 +20,5 @@
 		}
 	},
 	"minimum-stability": "stable",
-	"prefer-stable": true,
-    "scripts": {
-        "post-autoload-dump": [
-            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi"
-        ]
-    }
+	"prefer-stable": true
 }
